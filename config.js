@@ -8,11 +8,11 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
-    PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "INCONNU BOY",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " 554488138425",              
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
+module.exports = { session: process.env.SESSION_ID || 'INCONNU~XD~vIZi3AIa#7rjnWf_RcRxfClEDCgJWjvB2aN5_24Ul2TE9KG1zUck',
+    PREFIXE: process.env.PREFIX || "!",
+    OWNER_NAME: process.env.OWNER_NAME || "JUSTINES DICAPRIOH",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " 260774029289",              
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "no",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'INCONNU-XD-V2',
     URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/959dyk.jpg',
